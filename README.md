@@ -39,7 +39,7 @@ The main goal of this project is to explore how city-owned properties are distri
   <img width="500" alt="image" src="https://github.com/user-attachments/assets/d1ebe88d-86c4-4372-a2af-0703b6dbdd21" />
 </p>
 
-### 2. Data Profiling & Cleaning
+### 2. Data Profiling & 3. Cleaning
 - **AWS Glue DataBrew** used for:
   - Profiling dataset
   - Cleaning and renaming fields
@@ -50,7 +50,7 @@ The main goal of this project is to explore how city-owned properties are distri
   <img width="500" alt="image" src="https://github.com/user-attachments/assets/a4b3353a-680f-4b73-a9c8-c2e22ae24dbd" />
 </p>
 
-### 3. Data Cataloging
+### 4. Data Cataloging
 - Structured using **ETL process in AWS Glue**
 - Metadata stored in **AWS Data Catalog**
 - Output data stored in `realestate-cur-mya`
@@ -60,7 +60,7 @@ The main goal of this project is to explore how city-owned properties are distri
   <img width="500" alt="image" src="https://github.com/user-attachments/assets/cce3c2d9-ad1a-4957-89d0-0ce89b420391" />
 </p>
 
-### 4. Data Summarization
+### 5. Data Summarization
 - SQL queries run in **Amazon Athena** to:
   - Count properties by `Geometry_Local_Area`
   - Identify zones with highest and lowest city-owned property counts
@@ -68,6 +68,50 @@ The main goal of this project is to explore how city-owned properties are distri
 <p float="left">
   <img width="500" alt="image" src="https://github.com/user-attachments/assets/724258bd-a38a-4b31-b551-776fe7d7e8e8" />
   <img width="500" alt="image" src="https://github.com/user-attachments/assets/a0f88953-074c-43c3-92ee-f5ce1706ab67" />
+</p>
+
+### 6. Data Security
+To ensure data confidentiality, integrity, and availability:
+- **Encryption:** A symmetric key (`realestate-adm-key-mya`) was created using AWS KMS for securing raw, clean, and curated S3 buckets.
+- **Configuration:** Bucket versioning and default encryption were enabled in all three buckets.
+- **Replication:** A replication rule was added to each S3 bucket to copy data to backup buckets for disaster recovery.
+
+**Tools Used:**  
+`AWS S3`, `AWS KMS`, `S3 Replication Rules`
+
+<p float="left">
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/8bb66812-9bd7-46b8-8844-2336e5694aaf" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/12ab4c18-a4e4-4e16-bb68-34d5fa01d9de" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/3c4f6e35-bd70-4277-8f2d-5351dae446c7" />
+</p>
+
+### 7. Data Governance
+Data quality was enforced using a custom ETL pipeline in AWS Glue:
+- Rules were defined for **building number** and **geographic area** fields to check completeness and uniqueness.
+- Passed and failed records were separated using conditional routing.
+- Clean data was saved to the quality check folder in the clean bucket.
+
+**Tools Used:**  
+`AWS Glue`, `S3`, `ETL Visual Interface`
+
+<p float="left">
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/871d92b8-5166-45a7-8561-84e7d405c9f5" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/fe6b58fb-7c77-4c83-a8d2-822591227d94" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/c95fe5b6-ac39-4b18-ab23-3412e46080b4" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/a32e436c-15d6-4c19-94bc-d878e07fa757" />
+</p>
+
+### 8. Data Monitoring
+Real-time monitoring and user activity tracking:
+- **CloudWatch Dashboard:** Monitors S3 bucket growth, job performance, and triggers alarms for thresholds.
+- **CloudTrail Logs:** A dedicated trail (`realestate-adm-tra-mya`) tracks user actions on the platform.
+
+**Tools Used:**  
+`AWS CloudWatch`, `AWS CloudTrail`, `S3 Logging`
+
+<p float="left">
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/19037f5f-5e2d-4939-aff5-659b2e0297f9" />
+  <img width="500" alt="image" src="https://github.com/user-attachments/assets/9f7a28cf-3e29-4ba5-b222-9503262830a5" />
 </p>
 
 ## Key Insights & Findings
@@ -80,6 +124,7 @@ The main goal of this project is to explore how city-owned properties are distri
 - AWS Glue (Crawler, DataBrew, ETL)
 - Amazon Athena (SQL)
 - draw.io (for architecture diagrams)
+- AWS CloudWatch, AWS CloudTrail
 
 ## Deliverables
 - ETL workflow for property dataset in AWS
