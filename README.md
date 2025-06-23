@@ -1,5 +1,20 @@
-# Cloud Computing Projects
-This portfolio showcases two key projects: a descriptive analysis of city-owned property distribution in Vancouver and a comprehensive exploration of cloud computing concepts through the AWS Academy Cloud Foundations course.
+# ☁️ Cloud Computing Technologies @ UCW 
+![Cloud](https://img.shields.io/badge/Cloud_Computing-AWS-blue?logo=amazon-aws&logoColor=white)
+![AWS](https://img.shields.io/badge/Amazon%20Web%20Services-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Amazon EC2](https://img.shields.io/badge/Amazon%20EC2-F58536?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Amazon CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![AWS IAM](https://img.shields.io/badge/AWS%20IAM-1F4E1?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+This portfolio showcases two significant projects completed as part of the ***Cloud Computing Technologies*** course at the University Canada West (UCW), under the guidance of my instructor **Dehkordi, Mahmood Mortazavi**. These projects reflect both theoretical understanding and practical application of key cloud concepts.
+- **Project 1: Descriptive Analysis of City-Owned Property Distribution in Vancouver**  
+  This project involved analyzing municipal property data to identify trends and spatial distribution patterns across various neighborhoods. It served as a hands-on introduction to data analysis and visualization techniques relevant to smart city planning and public asset management.
+
+- **Project 2: AWS Academy Cloud Foundations – Module Reflections**  
+  This project reflects on key modules from the AWS Academy Cloud Foundations course. It covers essential cloud computing concepts including service models (IaaS, PaaS, SaaS), deployment strategies, and AWS services. The project demonstrates foundational knowledge in designing scalable and secure cloud solutions.
+
+These projects helped me reinforce critical thinking, technical analysis, and cloud architecture skills, providing a solid foundation for further studies and certifications in cloud technologies.
+
 ## Table of Content
 
 - [Project 1 - Descriptive Analysis of City-Owned Property Distribution in Vancouver](#project-1---descriptive-analysis-of-city-owned-property-distribution-in-vancouver)
