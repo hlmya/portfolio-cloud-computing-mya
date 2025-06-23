@@ -6,14 +6,15 @@
 ![Amazon CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![AWS IAM](https://img.shields.io/badge/AWS%20IAM-1F4E1?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-This portfolio showcases two significant projects completed as part of the ***Cloud Computing Technologies*** course at the University Canada West (UCW), under the guidance of my instructor **Dehkordi, Mahmood Mortazavi**. These projects reflect both theoretical understanding and practical application of key cloud concepts.
+This portfolio showcases two major projects completed as part of the ***Cloud Computing Technologies*** course at University Canada West (UCW), under the enthusiastic guidance of my instructor **Ph.D. Mahmood Mortazavi**. These projects reflect both theoretical understanding and hands-on practice with real-world cloud tools and data.
+
 - **Project 1: Descriptive Analysis of City-Owned Property Distribution in Vancouver**  
-  This project involved analyzing municipal property data to identify trends and spatial distribution patterns across various neighborhoods. It served as a hands-on introduction to data analysis and visualization techniques relevant to smart city planning and public asset management.
+  This project involved analyzing municipal property data to uncover trends and spatial distributions across Vancouver’s neighborhoods. It provided experience in data wrangling, visualization, and critical thinking about urban resource allocation.
 
 - **Project 2: AWS Academy Cloud Foundations – Module Reflections**  
-  This project reflects on key modules from the AWS Academy Cloud Foundations course. It covers essential cloud computing concepts including service models (IaaS, PaaS, SaaS), deployment strategies, and AWS services. The project demonstrates foundational knowledge in designing scalable and secure cloud solutions.
+  This project offers a comprehensive summary of modules covered in the AWS Academy Cloud Foundations course. Key topics include AWS core services (EC2, S3, IAM, CloudWatch), cloud models (IaaS, PaaS, SaaS), and deployment strategies. This foundational knowledge is essential for designing secure and scalable cloud solutions.
 
-These projects helped me reinforce critical thinking, technical analysis, and cloud architecture skills, providing a solid foundation for further studies and certifications in cloud technologies.
+These projects strengthened my technical understanding of cloud systems while also developing my problem-solving and data analysis skills in a professional context.
 
 ## Table of Content
 
