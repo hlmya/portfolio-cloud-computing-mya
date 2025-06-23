@@ -1,5 +1,50 @@
 # Cloud Computing Projects
 This portfolio showcases two key projects: a descriptive analysis of city-owned property distribution in Vancouver and a comprehensive exploration of cloud computing concepts through the AWS Academy Cloud Foundations course.
+## Table of Content
+
+- [Project 1](#project-1---descriptive-analysis-of-city-owned-property-distribution-in-vancouver)
+  - [Project Description](#project-description)
+  - [Dataset Description](#dataset)
+  - [Methodology](#methodology)
+    - [Data Collection & Ingestion](#1-data-collection--ingestion)
+    - [Data Profiling & Cleaning](#2-data-profiling--3-cleaning)
+    - [Data Cataloging](#4-data-cataloging)
+    - [Data Summarization](#5-data-summarization)
+    - [Data Security](#6-data-security)
+    - [Data Governance](#7-data-governance)
+    - [Data Monitoring](#8-data-monitoring)
+  - [Key Insights & Findings](#key-insights--findings)
+  - [Tools & Technologies](#tools--technologies)
+  - [Deliverables](#deliverables)
+  - [Conclusion](#conclusion)
+
+- [Project 2 - Understanding Modules in AWS Academy Cloud Foundations](#project-2---understanding-modules-in-aws-academy-cloud-foundations)
+  - [AWS Deployment and Service Models](#aws-deployment-and-service-models)
+    - [Case Study #1: Traditional Computing Model vs Cloud Computing Model](#case-study-1-traditional-computing-model-vs-cloud-computing-model)
+    - [Case Study #2: Cloud Deployment Models](#case-study-2-cloud-deployment-models)
+    - [Case Study #3: Cloud Service Models](#case-study-3-cloud-service-models)
+    - [AWS Knowledge Check - Module 1: Cloud Concepts Overview](#aws-knowledge-check---module-1-cloud-concepts-overview)
+  - [AWS Cost Analysis](#aws-cost-analysis)
+    - [Case Study #4: Total Cost Of Ownership - Delaware North](#case-study-4-total-cost-of-ownership---delaware-north)
+    - [Case Study #5: AWS Pricing Calculator](#case-study-5-aws-pricing-calculator)
+    - [Case Study #6: Support Plan](#case-study-6-support-plan)
+    - [AWS Knowledge Check - Module 2: Economics and Billing](#aws-knowledge-check---module-2-economics-and-billing)
+  - [AWS Global infrastructure](#aws-global-infrastructure)
+    - [Case Study #7: AWS Global Infrastructure](#case-study-7-aws-global-infrastructure)
+    - [AWS Knowledge Check - Module 3: AWS Global Infrastructure Overview](#aws-knowledge-check---module-3-aws-global-infrastructure-overview)
+  - [AWS IAM](#aws-iam)
+    - [Case Study #8: Who is responsible](#case-study-8-who-is-responsible)
+    - [Case Study #9: IAM practice: Lab 1](#case-study-9-iam-practice-lab-1)
+    - [AWS Knowledge Check - Module 4: AWS Cloud Security](#aws-knowledge-check---module-4-aws-cloud-security)
+  - [AWS VPC](#aws-vpc)
+    - [Case Study #10: Build your VPC: Lab 2](#case-study-10-build-your-vpc-lab-2)
+    - [AWS Knowledge Check - Module 5: Networking and Content Delivery](#aws-knowledge-check---module-5-networking-and-content-delivery)
+  - [AWS Lambda](#aws-lambda)
+    - [Case Study #11: Create an AWS Lambda function](#case-study-11-create-an-aws-lambda-function)
+    - [AWS Knowledge Check - Module 6: Compute](#aws-knowledge-check---module-6-compute)
+  - [AWS EBS](#aws-ebs)
+    - [Case Study #12: Working with Amazon EBS: Lab 4](#case-study-12-working-with-amazon-ebs-lab-4)
+  - [AWS Knowledge Check - Module 7: Storage](#aws-knowledge-check---module-7-storage)
 
 # Project 1 - Descriptive Analysis of City-Owned Property Distribution in Vancouver 
 ## Project Title: Understanding the Geographic Distribution of City-Owned Properties in Vancouver
@@ -215,7 +260,7 @@ This cloud-based descriptive analysis project illustrates how serverless tools o
 ## AWS Global infrastructure 
 - This module introduces the structure of AWS’s global infrastructure, including key components such as regions, availability zones, and data centers.
 
-### Case Study #7: AWS Global Infrastruture
+### Case Study #7: AWS Global Infrastructure
 - This case study compares how an Expense Claims dataset behaves across different AWS infrastructure layers such as Regional Edge Cache, Edge Location, and AWS Region in terms of location, access, and privacy, highlighting the trade-offs between performance, control, and data protection.
 
 | **Dataset: Expense Claims** | **Regional Edge Cache** | **Edge Location** | **Region** |
@@ -244,7 +289,7 @@ This cloud-based descriptive analysis project illustrates how serverless tools o
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/72847c02-bb25-49af-9187-61fbde465313" />
 
-### Case Study #9: IAM practrice: Lab 1
+### Case Study #9: IAM practice: Lab 1
 - This case study provides hands-on experience with AWS Identity and Access Management (IAM), where it explores the structure and function of IAM users, groups, and policies in a real-world cloud environment. The case study involves adding users to different IAM groups (S3-Support, EC2-Support, EC2-Admin), logging in as those users, and verifying access permissions by attempting EC2 stop instance actions (Image below).
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/33851d39-280d-43e6-ac28-94d33ed01a39" />
