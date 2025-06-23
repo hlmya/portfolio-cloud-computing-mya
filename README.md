@@ -2,7 +2,7 @@
 This portfolio showcases two key projects: a descriptive analysis of city-owned property distribution in Vancouver and a comprehensive exploration of cloud computing concepts through the AWS Academy Cloud Foundations course.
 ## Table of Content
 
-- [Project 1](#project-1---descriptive-analysis-of-city-owned-property-distribution-in-vancouver)
+- [Project 1 - Descriptive Analysis of City-Owned Property Distribution in Vancouver](#project-1---descriptive-analysis-of-city-owned-property-distribution-in-vancouver)
   - [Project Description](#project-description)
   - [Dataset Description](#dataset)
   - [Methodology](#methodology)
@@ -44,7 +44,7 @@ This portfolio showcases two key projects: a descriptive analysis of city-owned 
     - [AWS Knowledge Check - Module 6: Compute](#aws-knowledge-check---module-6-compute)
   - [AWS EBS](#aws-ebs)
     - [Case Study #12: Working with Amazon EBS: Lab 4](#case-study-12-working-with-amazon-ebs-lab-4)
-  - [AWS Knowledge Check - Module 7: Storage](#aws-knowledge-check---module-7-storage)
+    - [AWS Knowledge Check - Module 7: Storage](#aws-knowledge-check---module-7-storage)
 
 # Project 1 - Descriptive Analysis of City-Owned Property Distribution in Vancouver 
 ## Project Title: Understanding the Geographic Distribution of City-Owned Properties in Vancouver
